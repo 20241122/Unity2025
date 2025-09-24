@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class RouletteController : MonoBehaviour
 {
-    float rotSpeed = 10.0f; //0.0은 안되는 이유. 더블로 됨 (8바이트, 플로트는 4바이트)
+    float rotSpeed = 10.0f; 
     float startSpeed = 20.0f;
     float dRatio = 0.995f;
-    float minSpeed = 0.1f; // 앞에 public을 넣으면 유니티에 파라미터가 뜸. 디버깅 용으로 좋은듯?
+    float minSpeed = 0.1f; 
     bool startDecrease = false;
 
 
@@ -43,3 +43,33 @@ public class RouletteController : MonoBehaviour
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//0.0은 안되는 이유. 더블로 됨 (8바이트, 플로트는 4바이트)
+
+
+// 앞에 public을 넣으면 유니티에 파라미터가 뜸. 디버깅 용으로 좋은듯?
