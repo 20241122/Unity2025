@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 9b17acc628238934981499966179fa24
+  productGUID: a1157cd30eacf3343a2371f24c1fbe15
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Ch04
+  productName: Ch05
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -105,7 +105,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 3
+  fullscreenMode: 1
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -727,14 +727,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Ch04
+  metroPackageName: Ch05
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Ch04
+  metroApplicationDescription: Ch05
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -803,10 +803,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 12435d63-e412-4fcd-841b-8bd94bb4a585
+  cloudProjectId: 0c9a82bc-53ac-48b4-9e9e-8db8ae365297
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Ch04
+  projectName: Ch05
   organizationId: unity_20245091
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

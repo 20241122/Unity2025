@@ -5,7 +5,7 @@ using UnityEngine;
 public class CarController : MonoBehaviour
 {
     public float decreaseRatio = 0.98f;
-    public float speedRatio = 1.0f;
+    public float speedRatio = 1000f;
     float speed = 0f;
     Vector2 startPos;
 
@@ -27,10 +27,13 @@ public class CarController : MonoBehaviour
             Vector2 endPos = Input.mousePosition;
             float swipeLength = endPos.x - startPos.x;
             this.speed = swipeLength/speedRatio;
+
+            GetComponent<AudioSource>().Play();
         }
 
         transform.Translate(this.speed, 0, 0); //Translate : 이동, speed 만큼 이동. y, z방향으로 이동 안 함
         this.speed *= decreaseRatio;
+        if (this.speed < 0.01f) this.speed = 0f;
 
         Debug.Log("deltaTime : " + Time.deltaTime); //deltaTime이란? = 60분의 1(60프레임의 1)
     }
