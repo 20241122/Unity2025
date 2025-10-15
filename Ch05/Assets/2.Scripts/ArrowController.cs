@@ -39,6 +39,10 @@ public class ArrowController : MonoBehaviour
         //충돌 발생
         if (distance < arrowRadius + playerRadius) 
         {
+            GameObject director = GameObject.Find("GameDirector");
+            director.GetComponent<GameDirector>()
+                .DecreaseHP();
+       
             Destroy(gameObject);
         }
     }

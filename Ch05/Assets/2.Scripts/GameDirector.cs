@@ -9,6 +9,6 @@ public class GameDirector : MonoBehaviour
 
     public void DecreaseHP()
     {
-        this.hpGage.GetComponent<Image>().fillAmount -= 0.1f;
+        hpGage.GetComponent<Image>().fillAmount -= 0.1f;
     }
 }
