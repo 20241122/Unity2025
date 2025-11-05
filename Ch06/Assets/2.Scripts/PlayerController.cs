@@ -63,4 +63,20 @@ public class PlayerController : MonoBehaviour
     {
         SceneManager.LoadScene("ClearScene");
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Cloud")
+        {
+            transform.SetParent(collision.gameObject.transform);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Cloud")
+        {
+            transform.parent = null;
+        }
+    }
 }
