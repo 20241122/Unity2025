@@ -50,7 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fd287b9e58f79ea44b835062b61cb164, type: 3}
       propertyPath: m_Name
-      value: bamsongi
+      value: bamsongiPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd287b9e58f79ea44b835062b61cb164, type: 3}
+      propertyPath: m_TagString
+      value: Bamsongi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
