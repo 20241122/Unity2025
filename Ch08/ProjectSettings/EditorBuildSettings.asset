@@ -4,8 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/1.Scenes/3.MovingTarget.unity
-    guid: bb3ac5f1b98c8ab4685905328a4c71b4
+  m_Scenes: []
   m_configObjects: {}
